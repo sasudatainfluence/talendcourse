@@ -1,0 +1,681 @@
+!SESSION 2024-03-07 22:18:21.383 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.20.1
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false -talendRestart true
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false -talendRestart true -data file:/C:/Users/zakar/Desktop/Workspace/talendcourse/
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 22:18:24.470
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 22:18:24.472
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:25.180
+!MESSAGE 2024-03-07 22:18:25,177 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Program Files (x86)\Talend-Studio\studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:25.266
+!MESSAGE 2024-03-07 22:18:25,265 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240222_1049-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:26.286
+!MESSAGE 2024-03-07 22:18:26,286 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:26.287
+!MESSAGE 2024-03-07 22:18:26,287 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:26.437
+!MESSAGE 2024-03-07 22:18:26,436 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:26.438
+!MESSAGE 2024-03-07 22:18:26,438 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Start to check profile OS issue.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:26.440
+!MESSAGE 2024-03-07 22:18:26,439 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Remove invalid OS related plugins from config.ini
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:26.442
+!MESSAGE 2024-03-07 22:18:26,442 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Remove invalid OS related plugins from bundles.info
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:26.466
+!MESSAGE 2024-03-07 22:18:26,465 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Fixed profile OS issue.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:30.328
+!MESSAGE 2024-03-07 22:18:30,327 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:30.350
+!MESSAGE 2024-03-07 22:18:30,350 INFO  org.talend.repository.ui.login.LoginProjectPage  - updated git storage mode to standard
+
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:18:30.611
+!MESSAGE 2024-03-07 22:18:30,604 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.LoginProjectPage.fillConnectionsList(LoginProjectPage.java:970)
+	at org.talend.repository.ui.login.LoginProjectPage$6.run(LoginProjectPage.java:1079)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:18:31.365
+!MESSAGE 2024-03-07 22:18:31,364 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.LoginProjectPage.fillConnectionsList(LoginProjectPage.java:970)
+	at org.talend.repository.ui.login.LoginProjectPage$6.run(LoginProjectPage.java:1079)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:18:48.355
+!MESSAGE 2024-03-07 22:18:48,354 ERROR org.talend.studiolite.p2.featmanage.StudioLiteP2FeatManage  - No version found in talendcourse, skip project compatibility check.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:50.717
+!MESSAGE 2024-03-07 22:18:50,716 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-lite, version=8.0.1.20240222_1049, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:50.719
+!MESSAGE 2024-03-07 22:18:50,718 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tck, version=8.0.1.20240222_1049, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:50.721
+!MESSAGE 2024-03-07 22:18:50,721 INFO  org.talend.updates.runtime.maven.M2repoBaseInstaller  - GAV [groupId=org.talend.studio, artifactId=repo-tcksdk, version=8.0.1.20240222_1049, classifier=null, type=pom, componentType=0] was already installed
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:53.527
+!MESSAGE 2024-03-07 22:18:53,524 INFO  org.talend.sdk.component.studio.ProcessManager  - Local addresses passed to sdk: [127.0.0.1, [0:0:0:0:0:0:0:1]]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:54.802
+!MESSAGE 2024-03-07 22:18:54,801 INFO  org.talend.core.repository.model.ProxyRepositoryFactory  - a@a.com connecté sur talendcourse
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-03-07 22:18:57.883
+!MESSAGE 2024-03-07 22:18:57,881 WARN  org.talend.sdk.component.studio.logging.JULToOsgiHandler  - [org.talend.sdk.component.server.service.ComponentManagerService.init] No system property 'jdk.serialFilter', ensure it is intended
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:18:59.787
+!MESSAGE 2024-03-07 22:18:59,786 INFO  org.talend.core.repository.logintask.ReadOnlyProjectConfirm  - ReadOnly confirm
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:00.244
+!MESSAGE 2024-03-07 22:19:00,243 INFO  org.talend.designer.codegen.components.model.ComponentsLoader  - allSet size: 637, total: 637
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:01.303
+!MESSAGE 2024-03-07 22:19:01,302 INFO  org.talend.sdk.component.studio.ProcessManager  - Succeed to connect [http://127.0.0.1:54925/api/v1/environment]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:09.062
+!MESSAGE 2024-03-07 22:19:09,061 INFO  org.talend.designer.codegen.components.model.ComponentsFactory  - 694 components loaded in 9078 ms
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-03-07 22:19:09.513
+!MESSAGE 2024-03-07 22:19:09,512 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-03-07 22:19:09.515
+!MESSAGE 2024-03-07 22:19:09,514 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: UNIVERSAL-SPARK-3.1.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-03-07 22:19:09.612
+!MESSAGE 2024-03-07 22:19:09,611 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-03-07 22:19:09.614
+!MESSAGE 2024-03-07 22:19:09,612 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: UNIVERSAL-SPARK-3.1.X
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-03-07 22:19:09.672
+!MESSAGE 2024-03-07 22:19:09,671 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: DATAPROC-LAUNCHER-DI
+
+
+!ENTRY org.talend.platform.logging 2 0 2024-03-07 22:19:09.673
+!MESSAGE 2024-03-07 22:19:09,672 WARN  org.talend.commons.exception.CommonExceptionHandler  - Missing module group definition: UNIVERSAL-SPARK-3.1.X
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:09.911
+!MESSAGE 2024-03-07 22:19:09,910 INFO  org.talend.repository.view.remote.InitializeLockStatusLoginTask  - Initialize lock status
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:14.347
+!MESSAGE 2024-03-07 22:19:14,346 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-03-07 22:19:19.363
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\zakar'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:20.469
+!MESSAGE 2024-03-07 22:19:20,468 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TALENDCOURSE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:20.471
+!MESSAGE 2024-03-07 22:19:20,470 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Resources folder /TALENDCOURSE_ROUTINES/src/main/java overlaps with sources folder /TALENDCOURSE_ROUTINES/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:20.516
+!MESSAGE 2024-03-07 22:19:20,515 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TALENDCOURSE_ROUTINES/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:20.521
+!MESSAGE 2024-03-07 22:19:20,520 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TALENDCOURSE_ROUTINES/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:21.460
+!MESSAGE 2024-03-07 22:19:21,459 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 7 sec
+
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:19:24.053
+!MESSAGE 2024-03-07 22:19:24,052 ERROR org.talend.commons.exception.CommonExceptionHandler  - A JSONObject text must begin with '{' at 1 [character 2 line 1]
+
+!STACK 0
+us.monoid.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+	at us.monoid.json.JSONTokener.syntaxError(JSONTokener.java:423)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:190)
+	at us.monoid.json.JSONObject.<init>(JSONObject.java:321)
+	at org.talend.core.ui.token.TokenCollectorFactory$2.run(TokenCollectorFactory.java:340)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:27.390
+!MESSAGE 2024-03-07 22:19:27,389 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  - C:\Users\zakar\Desktop\Workspace\talendcourse\TALENDCOURSE\poms\code\routines
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:27.423
+!MESSAGE 2024-03-07 22:19:27,423 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\Talend-Studio\studio\configuration\maven_user_settings.xml" install -llr -Dmaven.main.skip=true -Dci.builder.skip=true -Dlicense.path="C:\Program Files (x86)\Talend-Studio\studio\license" -Dsession.id=Mjc4NzMzMTcwOTg0NjM2NzEyMA==
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:19:46.629
+!MESSAGE 2024-03-07 22:19:46,628 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TALENDCOURSE_ROUTINES: org.example.talendcourse.code:routines:8.0.1 with classifier  to /TALENDCOURSE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:20:08.344
+!MESSAGE 2024-03-07 22:20:08,343 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TALENDCOURSE_ROUTINES: org.example.talendcourse.code:routines:8.0.1 with classifier  to /TALENDCOURSE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:20:08.532
+!MESSAGE 2024-03-07 22:20:08,531 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TALENDCOURSE_TEST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:20:08.533
+!MESSAGE 2024-03-07 22:20:08,533 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TALENDCOURSE_TEST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:20:08.546
+!MESSAGE 2024-03-07 22:20:08,545 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TALENDCOURSE_TEST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:20:08.546
+!MESSAGE 2024-03-07 22:20:08,546 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TALENDCOURSE_TEST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:21:35.535
+!MESSAGE 2024-03-07 22:21:35,534 INFO  org.talend.core.tis.service.DetectCVEService  - cveData is loaded from file: /C:/Program Files (x86)/Talend-Studio/studio/plugins/org.talend.cveindex_8.0.1.20240222_1049/resources/cveindex.csv, number of records: 787
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:21:35.546
+!MESSAGE 2024-03-07 22:21:35,545 INFO  org.talend.core.tis.service.DetectCVEService  - loadCVEData, size: 787
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:24:59.500
+!MESSAGE 2024-03-07 22:24:59,500 INFO  org.talend.designer.runprocess.maven.MavenJavaProcessor  - build, threadParam: -T 1C
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:24:59.506
+!MESSAGE 2024-03-07 22:24:59,506 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update started
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:24:59.844
+!MESSAGE 2024-03-07 22:24:59,843 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TALENDCOURSE_ROUTINES: org.example.talendcourse.code:routines:8.0.1 with classifier  to /TALENDCOURSE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:00.141
+!MESSAGE 2024-03-07 22:25:00,141 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TALENDCOURSE_TEST_0.1/src/main/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:00.143
+!MESSAGE 2024-03-07 22:25:00,142 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TALENDCOURSE_TEST_0.1/src/main/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:00.144
+!MESSAGE 2024-03-07 22:25:00,144 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding source folder /TALENDCOURSE_TEST_0.1/src/test/java
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:00.146
+!MESSAGE 2024-03-07 22:25:00,145 INFO  org.eclipse.m2e.jdt.internal.AbstractJavaProjectConfigurator  - Adding resource folder /TALENDCOURSE_TEST_0.1/src/test/resources
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:00.434
+!MESSAGE 2024-03-07 22:25:00,434 INFO  org.eclipse.m2e.core.internal.project.ProjectConfigurationManager  - Update completed: 0 sec
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:02.387
+!MESSAGE 2024-03-07 22:25:02,381 INFO  org.eclipse.m2e.core.internal.project.WorkspaceClassifierResolverManager  - Resolving P/TALENDCOURSE_ROUTINES: org.example.talendcourse.code:routines:8.0.1 with classifier  to /TALENDCOURSE_ROUTINES/target/classes
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:02.484
+!MESSAGE 2024-03-07 22:25:02,484 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  - C:\Users\zakar\Desktop\Workspace\talendcourse\TALENDCOURSE\poms\jobs\process\test_0.1
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:25:02.485
+!MESSAGE 2024-03-07 22:25:02,485 INFO  org.talend.designer.maven.launch.TalendMavenLaunchDelegate  -  mvn -B -o -s "C:\Program Files (x86)\Talend-Studio\studio\configuration\maven_user_settings.xml" package -llr -l C:/Users/zakar/Desktop/Workspace/talendcourse/TALENDCOURSE/poms/jobs/process/test_0.1/lastGenerated.log -P default-settings,!include-java-sources,!include-maven-resources,!include-items,include-libs,include-binaries,include-running-log4j,!include-log4j,include-contexts,!include-test-sources,!include-test-reports,!include-xmlMappings,!include-running-xmlMappings,packaging-and-assembly,!ci-builder,signature -Dmaven.test.skip=true -Dlicense.path="C:\Program Files (x86)\Talend-Studio\studio\license" -Dsession.id=MzMyMTMwMTcwOTg0NjcwMjQ2OQ== -Dmaven.main.skip=true -Dci.builder.skip=true -Dlicense.path="C:\Program Files (x86)\Talend-Studio\studio\license" -Dsession.id=Mzk2NTEwMTcwOTg0NjcwMjQ3Nw==
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-03-07 22:36:43.206
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2024-03-07 22:36:43.571 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=11.0.20.1
+java.vendor=Azul Systems, Inc.
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -talendReload false -talendRestart true
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -talendReload false -data file:/C:/Users/zakar/Desktop/Workspace/talendcourse/ -talendRestart true
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 22:36:48.570
+!MESSAGE Both 'org.talend.designer.unitemap' and 'org.talend.designer.unitemap' register a package for 'http://www.talend.org/unitemap'
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-03-07 22:36:48.573
+!MESSAGE Both 'org.talend.model' and 'org.talend.model' register a package for 'http://www.talend.org/component_cache'
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:49.272
+!MESSAGE 2024-03-07 22:36:49,269 INFO  org.talend.utils.StudioKeysFileCheck  - encryptionKeyFilePath: C:\Program Files (x86)\Talend-Studio\studio\configuration\studio.keys
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:49.378
+!MESSAGE 2024-03-07 22:36:49,378 INFO  org.talend.rcp.intro.Application  - 
+!!------------------------------------------------------------------------------!!
+!!                                                                              !!
+!!                                    TALEND                                    !!
+!!   Starting Talend's platform log system.VERSION= 8.0.1.20240222_1049-patch   !!
+!!                                                                              !!
+!!------------------------------------------------------------------------------!!
+
+
+!ENTRY org.eclipse.core.resources 2 10035 2024-03-07 22:36:49.693
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:50.577
+!MESSAGE 2024-03-07 22:36:50,577 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into http.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:50.579
+!MESSAGE 2024-03-07 22:36:50,578 INFO  org.talend.commons.exception.CommonExceptionHandler  - org.talend.commons.utils.network.TalendProxySelector:-Dtalend.studio.proxy.excludeLoopbackAutomatically=true, adding missing loopback addresses into https.nonProxyHosts: [localhost, 0:0:0:0:0:0:0:1, 127.0.0.1]
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:50.743
+!MESSAGE 2024-03-07 22:36:50,742 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Force profile OS check: -Dtalend.studio.p2.profileOS.check=true
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:50.744
+!MESSAGE 2024-03-07 22:36:50,743 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Start to check profile OS issue.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:50.745
+!MESSAGE 2024-03-07 22:36:50,744 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Remove invalid OS related plugins from config.ini
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:50.759
+!MESSAGE 2024-03-07 22:36:50,759 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Remove invalid OS related plugins from bundles.info
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:50.784
+!MESSAGE 2024-03-07 22:36:50,783 INFO  org.talend.studiolite.p2.core.StudioLiteP2Core  - Fixed profile OS issue.
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:52.779
+!MESSAGE 2024-03-07 22:36:52,778 INFO  org.talend.repository.ui.login.LoginProjectPage  - start to update git storage mode
+
+
+!ENTRY org.talend.platform.logging 1 0 2024-03-07 22:36:52.795
+!MESSAGE 2024-03-07 22:36:52,795 INFO  org.talend.repository.ui.login.LoginProjectPage  - git storage mode was already set, standard: true
+
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:36:53.047
+!MESSAGE 2024-03-07 22:36:53,042 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.LoginProjectPage.fillConnectionsList(LoginProjectPage.java:970)
+	at org.talend.repository.ui.login.LoginProjectPage$6.run(LoginProjectPage.java:1079)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:36:53.867
+!MESSAGE 2024-03-07 22:36:53,866 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.LoginProjectPage.fillConnectionsList(LoginProjectPage.java:970)
+	at org.talend.repository.ui.login.LoginProjectPage$6.run(LoginProjectPage.java:1079)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:37:09.934
+!MESSAGE 2024-03-07 22:37:09,932 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.fillFields(ConnectionFormComposite.java:989)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.setConnection(ConnectionFormComposite.java:1027)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setSelectedConnection(ConnectionsListComposite.java:282)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setConnectionsFormComposite(ConnectionsListComposite.java:252)
+	at org.talend.repository.ui.login.connections.ConnectionsDialog.createDialogArea(ConnectionsDialog.java:169)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:157)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.talend.repository.ui.login.LoginProjectPage.handleOpenConnectionsDialog(LoginProjectPage.java:1489)
+	at org.talend.repository.ui.login.LoginProjectPage$16.widgetSelected(LoginProjectPage.java:1322)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.RepositoryService.openLoginDialog(RepositoryService.java:369)
+	at org.talend.rcp.intro.Application.logUserOnProject(Application.java:719)
+	at org.talend.rcp.intro.Application.start(Application.java:242)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:37:09.935
+!MESSAGE 2024-03-07 22:37:09,934 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.fillFields(ConnectionFormComposite.java:989)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.setConnection(ConnectionFormComposite.java:1027)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setSelectedConnection(ConnectionsListComposite.java:282)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setConnectionsFormComposite(ConnectionsListComposite.java:252)
+	at org.talend.repository.ui.login.connections.ConnectionsDialog.createDialogArea(ConnectionsDialog.java:169)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:157)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.talend.repository.ui.login.LoginProjectPage.handleOpenConnectionsDialog(LoginProjectPage.java:1489)
+	at org.talend.repository.ui.login.LoginProjectPage$16.widgetSelected(LoginProjectPage.java:1322)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.RepositoryService.openLoginDialog(RepositoryService.java:369)
+	at org.talend.rcp.intro.Application.logUserOnProject(Application.java:719)
+	at org.talend.rcp.intro.Application.start(Application.java:242)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:37:10.647
+!MESSAGE 2024-03-07 22:37:10,645 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.fillFields(ConnectionFormComposite.java:989)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.setConnection(ConnectionFormComposite.java:1027)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setSelectedConnection(ConnectionsListComposite.java:282)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setConnectionsFormComposite(ConnectionsListComposite.java:252)
+	at org.talend.repository.ui.login.connections.ConnectionsDialog.createDialogArea(ConnectionsDialog.java:169)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:157)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.talend.repository.ui.login.LoginProjectPage.handleOpenConnectionsDialog(LoginProjectPage.java:1489)
+	at org.talend.repository.ui.login.LoginProjectPage$16.widgetSelected(LoginProjectPage.java:1322)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.RepositoryService.openLoginDialog(RepositoryService.java:369)
+	at org.talend.rcp.intro.Application.logUserOnProject(Application.java:719)
+	at org.talend.rcp.intro.Application.start(Application.java:242)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:37:10.649
+!MESSAGE 2024-03-07 22:37:10,648 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.fillFields(ConnectionFormComposite.java:989)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.setConnection(ConnectionFormComposite.java:1027)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setSelectedConnection(ConnectionsListComposite.java:282)
+	at org.talend.repository.ui.login.connections.ConnectionsListComposite.setConnectionsFormComposite(ConnectionsListComposite.java:252)
+	at org.talend.repository.ui.login.connections.ConnectionsDialog.createDialogArea(ConnectionsDialog.java:169)
+	at org.eclipse.jface.dialogs.TitleAreaDialog.createContents(TitleAreaDialog.java:157)
+	at org.eclipse.jface.window.Window.create(Window.java:431)
+	at org.eclipse.jface.dialogs.Dialog.create(Dialog.java:1094)
+	at org.eclipse.jface.window.Window.open(Window.java:788)
+	at org.talend.repository.ui.login.LoginProjectPage.handleOpenConnectionsDialog(LoginProjectPage.java:1489)
+	at org.talend.repository.ui.login.LoginProjectPage$16.widgetSelected(LoginProjectPage.java:1322)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.RepositoryService.openLoginDialog(RepositoryService.java:369)
+	at org.talend.rcp.intro.Application.logUserOnProject(Application.java:719)
+	at org.talend.rcp.intro.Application.start(Application.java:242)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.eclipse.egit.core 4 0 2024-03-07 22:37:21.399
+!MESSAGE La configuration du fournisseur de l'équipe Git a disparu.
+!STACK 0
+java.nio.file.NoSuchFileException: C:\Users\zakar\Desktop\Workspace\talendcourse\.metadata\.plugins\org.eclipse.core.resources\.projects\TALENDCOURSE\org.eclipse.egit.core\GitProjectData.properties
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(WindowsException.java:85)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:103)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(WindowsException.java:108)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.newByteChannel(WindowsFileSystemProvider.java:235)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:371)
+	at java.base/java.nio.file.Files.newByteChannel(Files.java:422)
+	at java.base/java.nio.file.spi.FileSystemProvider.newInputStream(FileSystemProvider.java:420)
+	at java.base/java.nio.file.Files.newInputStream(Files.java:156)
+	at org.eclipse.egit.core.project.GitProjectData.load(GitProjectData.java:647)
+	at org.eclipse.egit.core.project.GitProjectData.get(GitProjectData.java:217)
+	at org.eclipse.egit.core.GitProvider.getData(GitProvider.java:108)
+	at org.eclipse.egit.core.GitProvider.getMoveDeleteHook(GitProvider.java:92)
+	at org.eclipse.team.internal.core.MoveDeleteManager.getHookFor(MoveDeleteManager.java:37)
+	at org.eclipse.team.internal.core.MoveDeleteManager.deleteProject(MoveDeleteManager.java:71)
+	at org.eclipse.core.internal.resources.Resource.unprotectedDelete(Resource.java:1791)
+	at org.eclipse.core.internal.resources.Resource.delete(Resource.java:762)
+	at org.eclipse.core.internal.resources.Project.delete(Project.java:320)
+	at org.talend.repository.ui.actions.importproject.SelectDeleteProjectDialog.delProjectItem(SelectDeleteProjectDialog.java:382)
+	at org.talend.repository.ui.actions.importproject.SelectDeleteProjectDialog.okPressed(SelectDeleteProjectDialog.java:400)
+	at org.eclipse.jface.dialogs.Dialog.buttonPressed(Dialog.java:468)
+	at org.eclipse.jface.dialogs.Dialog.lambda$0(Dialog.java:619)
+	at org.eclipse.swt.events.SelectionListener$1.widgetSelected(SelectionListener.java:84)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.ui.actions.importproject.DeleteProjectsAsAction.run(DeleteProjectsAsAction.java:84)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite.deleteProject(ConnectionFormComposite.java:1036)
+	at org.talend.repository.ui.login.connections.ConnectionFormComposite$4.widgetSelected(ConnectionFormComposite.java:687)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.ui.login.LoginProjectPage.handleOpenConnectionsDialog(LoginProjectPage.java:1489)
+	at org.talend.repository.ui.login.LoginProjectPage$16.widgetSelected(LoginProjectPage.java:1322)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.RepositoryService.openLoginDialog(RepositoryService.java:369)
+	at org.talend.rcp.intro.Application.logUserOnProject(Application.java:719)
+	at org.talend.rcp.intro.Application.start(Application.java:242)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:37:24.770
+!MESSAGE 2024-03-07 22:37:24,769 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.LoginProjectPage.fillConnectionsList(LoginProjectPage.java:970)
+	at org.talend.repository.ui.login.LoginProjectPage.handleOpenConnectionsDialog(LoginProjectPage.java:1500)
+	at org.talend.repository.ui.login.LoginProjectPage$16.widgetSelected(LoginProjectPage.java:1322)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.RepositoryService.openLoginDialog(RepositoryService.java:369)
+	at org.talend.rcp.intro.Application.logUserOnProject(Application.java:719)
+	at org.talend.rcp.intro.Application.start(Application.java:242)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)
+
+!ENTRY org.talend.platform.logging 4 0 2024-03-07 22:37:25.133
+!MESSAGE 2024-03-07 22:37:25,132 ERROR org.talend.commons.exception.CommonExceptionHandler  - Token is empty
+
+!STACK 0
+java.lang.Exception: Token is empty
+	at org.talend.singlesignon.client.service.CloudSignOnService.getTokenUser(CloudSignOnService.java:137)
+	at org.talend.core.model.general.ConnectionBean.getUser(ConnectionBean.java:258)
+	at org.talend.repository.ui.login.LoginProjectPage.fillConnectionsList(LoginProjectPage.java:970)
+	at org.talend.repository.ui.login.LoginProjectPage.handleOpenConnectionsDialog(LoginProjectPage.java:1500)
+	at org.talend.repository.ui.login.LoginProjectPage$16.widgetSelected(LoginProjectPage.java:1322)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:252)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:89)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4209)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1043)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4026)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3626)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:823)
+	at org.eclipse.jface.window.Window.open(Window.java:799)
+	at org.talend.repository.RepositoryService.openLoginDialog(RepositoryService.java:369)
+	at org.talend.rcp.intro.Application.logUserOnProject(Application.java:719)
+	at org.talend.rcp.intro.Application.start(Application.java:242)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:401)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:654)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1462)

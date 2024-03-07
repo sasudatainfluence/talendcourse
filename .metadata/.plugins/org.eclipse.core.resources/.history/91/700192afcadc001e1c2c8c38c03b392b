@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Property xmi:id="_d3ztsNzIEe6E5JpuMbWcRQ" id="_d3uOINzIEe6E5JpuMbWcRQ" label="test" version="0.1" statusCode="" item="_d3ztstzIEe6E5JpuMbWcRQ" displayName="test">
+    <author href="../talend.project#_Rz5P4NzIEe6E5JpuMbWcRQ"/>
+    <additionalProperties xmi:id="_d4-LUNzIEe6E5JpuMbWcRQ" key="created_product_fullname" value="Talend Cloud Data Management Platform"/>
+    <additionalProperties xmi:id="_d4-LUdzIEe6E5JpuMbWcRQ" key="created_product_version" value="8.0.1.20240222_1049-patch"/>
+    <additionalProperties xmi:id="_d4-LUtzIEe6E5JpuMbWcRQ" key="created_date" value="2024-03-07T22:20:05.253+0100"/>
+    <additionalProperties xmi:id="_d4-LU9zIEe6E5JpuMbWcRQ" key="modified_product_fullname" value="Talend Cloud Data Management Platform"/>
+    <additionalProperties xmi:id="_d4-LVNzIEe6E5JpuMbWcRQ" key="modified_product_version" value="8.0.1.20240222_1049-patch"/>
+    <additionalProperties xmi:id="_d4-LVdzIEe6E5JpuMbWcRQ" key="modified_date" value="2024-03-07T22:21:11.901+0100"/>
+  </TalendProperties:Property>
+  <TalendProperties:ItemState xmi:id="_d3ztsdzIEe6E5JpuMbWcRQ" path="" locked="true" lockDate="2024-03-07T22:20:07.547+0100">
+    <locker href="../talend.project#_Rz5P4NzIEe6E5JpuMbWcRQ"/>
+  </TalendProperties:ItemState>
+  <TalendProperties:ProcessItem xmi:id="_d3ztstzIEe6E5JpuMbWcRQ" property="_d3ztsNzIEe6E5JpuMbWcRQ" state="_d3ztsdzIEe6E5JpuMbWcRQ">
+    <process href="test_0.1.item#/"/>
+  </TalendProperties:ProcessItem>
+</xmi:XMI>
