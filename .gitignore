@@ -1,0 +1,8 @@
+**/jobInfo.properties
+.JETEmitters/
+.Java/
+.metadata/
+talendcourse/code/routines/system/*.*
+talendcourse/temp/
+talendcourse/sqlPatterns/
+talendcourse/talend.project
